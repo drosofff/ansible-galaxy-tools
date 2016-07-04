@@ -11,3 +11,6 @@
 
 - include: bootstrap_user.yml delete_user={{ galaxy_tools_delete_bootstrap_user }}
   when: galaxy_tools_delete_bootstrap_user
+
+- include: restart_galaxy.yml
+
